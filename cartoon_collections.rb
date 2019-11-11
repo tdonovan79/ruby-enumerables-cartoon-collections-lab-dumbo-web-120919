@@ -7,7 +7,7 @@ end
 
 #turn each element into a captain planet call
 def summon_captain_planet(planeteers_calls)
-  planeteers_calls.collect{|x| }
+  return planeteers_calls.collect{|x| x.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
