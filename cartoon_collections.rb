@@ -12,7 +12,12 @@ end
 
 def long_planeteer_calls(calls)
   short_flag = true
-  calls.each |x|
+  calls.each do |x|
+    if x.length > 4
+      short_flag = false
+    end
+  end
+  return short_flag
 end
 
 def find_the_cheese# code an argument here
