@@ -21,7 +21,10 @@ def long_planeteer_calls(calls)
   return short_flag
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+#return first type fo cheese that appears in array
+def find_the_cheese(food_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  food_array.each do |food|
+    if cheese_types.include
+  end
 end
