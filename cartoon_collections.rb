@@ -10,6 +10,7 @@ def summon_captain_planet(planeteers_calls)
   return planeteers_calls.collect{|x| x.capitalize + "!"}
 end
 
+#return true if there is a word over four fase otherwise
 def long_planeteer_calls(calls)
   short_flag = false
   calls.each do |x|
