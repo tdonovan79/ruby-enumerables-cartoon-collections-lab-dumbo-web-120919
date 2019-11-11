@@ -10,8 +10,9 @@ def summon_captain_planet(planeteers_calls)
   return planeteers_calls.collect{|x| x.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  short_flag = true
+  calls.each
 end
 
 def find_the_cheese# code an argument here
