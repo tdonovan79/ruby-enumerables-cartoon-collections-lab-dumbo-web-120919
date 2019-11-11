@@ -11,10 +11,10 @@ def summon_captain_planet(planeteers_calls)
 end
 
 def long_planeteer_calls(calls)
-  short_flag = true
+  short_flag = false
   calls.each do |x|
     if x.length > 4
-      short_flag = false
+      short_flag = true
     end
   end
   return short_flag
