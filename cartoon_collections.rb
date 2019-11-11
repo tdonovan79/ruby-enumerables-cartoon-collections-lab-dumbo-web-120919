@@ -5,8 +5,9 @@ def roll_call_dwarves(dwarf_array)
   }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+#turn each element into a captain planet call
+def summon_captain_planet(planeteers_calls)
+  planeteers_calls.collect{|x| }
 end
 
 def long_planeteer_calls# code an argument here
